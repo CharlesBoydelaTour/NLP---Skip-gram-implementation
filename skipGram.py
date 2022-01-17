@@ -28,30 +28,44 @@ def loadPairs(path):
 class SkipGram:
 	def __init__(self, sentences, nEmbed=100, negativeRate=5, winSize = 5, minCount = 5):
 		self.w2id = {} # word to ID mapping
-        self.trainset = {} # set of sentences
-        self.vocab = {} # list of valid words
-        ## TODO-strart        
-        ## TODO-end
-        raise NotImplementedError('implement it!')
-
+        self.trainset = set(sentences) # set of sentences
+        self.vocab = [] # list of valid words
+        #raise NotImplementedError('implement it!')
+		## TODO-start
+		#list of unique words
+		for sentence in self.trainset:
+			for word in sentence: 
+				if word not in self.vocab: 
+					self.vocab.append(word)
+     	#vocab in alphabetical order
+		vocab = sorted(self.vocab)
+		# create the mapping from word to index 
+		for i, word in enumerate(self.vocab):
+			self.w2id[word] = i
+ 		## TODO-end
+  
     def sample(self, omit):
         """samples negative words, ommitting those in set omit"""
-        ## TODO-strart    
-            
+        ## TODO-start   
+        rng = np.random.default_rng() #create numpy random number generator
+        indexes = np.arange(len(self.vocab)) #array of all the possible indexes in vocab
+        samplesID = rng.choice(indexes, size=self.negativeRate, replace=False) 
+        samplesID = filter(lambda id: id not in omit, samplesID)
+        return samplesID
         ## TODO-end
-        raise NotImplementedError('this is easy, might want to do some preprocessing to speed up')
+        #raise NotImplementedError('this is easy, might want to do some preprocessing to speed up')
 
     def train(self):
-        for counter, sentence in enumerate(self.trainset):
+        for counter, sentence in enumerate(self.trainset): # for each sentence in trainset
             sentence = filter(lambda word: word in self.vocab, sentence)
 
-            for wpos, word in enumerate(sentence):
+            for wpos, word in enumerate(sentence): # for each word in sentence
                 wIdx = self.w2id[word]
-                winsize = np.random.randint(self.winSize) + 1
+                winsize = np.random.randint(self.winSize) + 1 # get a random window size of words around the word
                 start = max(0, wpos - winsize)
                 end = min(wpos + winsize + 1, len(sentence))
 
-                for context_word in sentence[start:end]:
+                for context_word in sentence[start:end]: # for each word in window
                     ctxtId = self.w2id[context_word]
                     if ctxtId == wIdx: continue
                     negativeIds = self.sample({wIdx, ctxtId})
@@ -59,7 +73,7 @@ class SkipGram:
                     self.trainWords += 1
 
             if counter % 1000 == 0:
-                print ' > training %d of %d' % (counter, len(self.trainset))
+                print (' > training %d of %d' % (counter, len(self.trainset)))
                 self.loss.append(self.accLoss / self.trainWords)
                 self.trainWords = 0
                 self.accLoss = 0.
