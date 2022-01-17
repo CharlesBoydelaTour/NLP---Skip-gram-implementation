@@ -38,7 +38,7 @@ class SkipGram:
 				if word not in self.vocab: 
 					self.vocab.append(word)
      	#vocab in alphabetical order
-		vocab = sorted(self.vocab)
+		self.vocab = sorted(self.vocab)
 		# create the mapping from word to index 
 		for i, word in enumerate(self.vocab):
 			self.w2id[word] = i
