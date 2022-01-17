@@ -35,7 +35,6 @@ class SkipGram:
 		self.nEmbed = nEmbed
 		self.winSize = winSize
 		self.minCount = minCount
-        #raise NotImplementedError('implement it!')
 
 		#list of unique words
 		for sentence in self.trainset:
@@ -47,12 +46,14 @@ class SkipGram:
 		# create the mapping from word to index 
 		for i, word in enumerate(self.vocab):
 			self.w2id[word] = i
+
+		#raise NotImplementedError('implement it!')
  		## TODO-end
   
 	def sample(self, omit):
 		"""samples negative words, ommitting those in set omit"""
 		## TODO-start   
-		omit = np.array(omit)
+		omit = np.array(list(omit)) #index to omit
 		rng = np.random.default_rng() #create numpy random number generator
 		indexes = np.arange(len(self.vocab)) #array of all the possible indexes in vocab
 		samplesID = rng.choice(indexes, size=self.negativeRate, replace=False)
