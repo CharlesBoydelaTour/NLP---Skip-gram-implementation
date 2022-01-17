@@ -27,11 +27,16 @@ def loadPairs(path):
 
 class SkipGram:
 	def __init__(self, sentences, nEmbed=100, negativeRate=5, winSize = 5, minCount = 5):
+		## TODO-start
 		self.w2id = {} # word to ID mapping
 		self.trainset = set(sentences) # set of sentences
 		self.vocab = [] # list of valid words
+		self.negativeRate = negativeRate
+		self.nEmbed = nEmbed
+		self.winSize = winSize
+		self.minCount = minCount
         #raise NotImplementedError('implement it!')
-		## TODO-start
+
 		#list of unique words
 		for sentence in self.trainset:
 			for word in sentence: 
@@ -47,11 +52,13 @@ class SkipGram:
 	def sample(self, omit):
 		"""samples negative words, ommitting those in set omit"""
 		## TODO-start   
+		omit = np.array(omit)
 		rng = np.random.default_rng() #create numpy random number generator
 		indexes = np.arange(len(self.vocab)) #array of all the possible indexes in vocab
-		samplesID = rng.choice(indexes, size=self.negativeRate, replace=False) 
-		samplesID = filter(lambda id: id not in omit, samplesID)
-		return samplesID
+		samplesID = rng.choice(indexes, size=self.negativeRate, replace=False)
+		mask = np.isin(samplesID, omit, assume_unique=True, invert=True)
+		samplesID = samplesID[mask]
+		return samplesID.tolist()
 		## TODO-end
 		#raise NotImplementedError('this is easy, might want to do some preprocessing to speed up')
 
