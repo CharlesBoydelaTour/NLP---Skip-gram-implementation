@@ -28,8 +28,8 @@ def loadPairs(path):
 class SkipGram:
 	def __init__(self, sentences, nEmbed=100, negativeRate=5, winSize = 5, minCount = 5):
 		self.w2id = {} # word to ID mapping
-        self.trainset = set(sentences) # set of sentences
-        self.vocab = [] # list of valid words
+		self.trainset = set(sentences) # set of sentences
+		self.vocab = [] # list of valid words
         #raise NotImplementedError('implement it!')
 		## TODO-start
 		#list of unique words
@@ -44,19 +44,19 @@ class SkipGram:
 			self.w2id[word] = i
  		## TODO-end
   
-    def sample(self, omit):
-        """samples negative words, ommitting those in set omit"""
-        ## TODO-start   
-        rng = np.random.default_rng() #create numpy random number generator
-        indexes = np.arange(len(self.vocab)) #array of all the possible indexes in vocab
-        samplesID = rng.choice(indexes, size=self.negativeRate, replace=False) 
-        samplesID = filter(lambda id: id not in omit, samplesID)
-        return samplesID
-        ## TODO-end
-        #raise NotImplementedError('this is easy, might want to do some preprocessing to speed up')
+	def sample(self, omit):
+		"""samples negative words, ommitting those in set omit"""
+		## TODO-start   
+		rng = np.random.default_rng() #create numpy random number generator
+		indexes = np.arange(len(self.vocab)) #array of all the possible indexes in vocab
+		samplesID = rng.choice(indexes, size=self.negativeRate, replace=False) 
+		samplesID = filter(lambda id: id not in omit, samplesID)
+		return samplesID
+		## TODO-end
+		#raise NotImplementedError('this is easy, might want to do some preprocessing to speed up')
 
-    def train(self):
-        for counter, sentence in enumerate(self.trainset): # for each sentence in trainset
+	def train(self):
+    	for counter, sentence in enumerate(self.trainset): # for each sentence in trainset
             sentence = filter(lambda word: word in self.vocab, sentence)
 
             for wpos, word in enumerate(sentence): # for each word in sentence
