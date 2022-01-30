@@ -91,3 +91,4 @@ echo "INFO: cleaning up"
 rm $RESULTFILE
 
 
+$SHELL

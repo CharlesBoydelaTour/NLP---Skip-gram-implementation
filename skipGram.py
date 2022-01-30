@@ -126,7 +126,7 @@ class SkipGram:
 		#update
 		self.l2 = self.l2 - 0.02*dl2.T
 		self.l1[wordId,:] = self.l1[wordId,:] - 0.02*dl1
-		return loss
+		return np.sum(loss)
 
 	def save(self, path):
 			np.save(path, np.array([self.l1,
@@ -134,38 +134,38 @@ class SkipGram:
 	                  				self.all_losses,
 	                      			self.id2w,
 	                         		self.w2id],
-	                         		dtype=object),
+	                         		dtype=object), 
 	          						allow_pickle=True)
 
-def similarity(self,word1,word2):
-		"""
-			computes similiarity between the two words. unknown words are mapped to one common vector
-		:param word1:
-		:param word2:
-		:return: a float \in [0,1] indicating the similarity (the higher the more similar)
-		"""
-		if word1 in self.w2id and word2 in self.w2id:
-			word1 = self.w2id[word1]
-			word2 = self.w2id[word2]
-			h1 = self.l1[word1,:]
-			h1 = h1.reshape((len(h1),1))
-			h1 = np.dot(self.l2.T, h1)
-			h1 = np.exp(h1) / np.sum(np.exp(h1), axis=0, keepdims=True)
-			h2 = self.l1[word2,:]
-			h2 = h2.reshape((len(h2),1))
-			h2 = np.dot(self.l2.T, h2)
-			h2 = np.exp(h2) / np.sum(np.exp(h2), axis=0, keepdims=True)
-			return np.dot(h1.T, h2)[0][0]
-		else:
-			return 0
+	def similarity(self,word1,word2):
+			"""
+				computes similiarity between the two words. unknown words are mapped to one common vector
+			:param word1:
+			:param word2:
+			:return: a float \in [0,1] indicating the similarity (the higher the more similar)
+			"""
+			if word1 in self.w2id and word2 in self.w2id:
+				word1 = self.w2id[word1]
+				word2 = self.w2id[word2]
+				h1 = self.l1[word1,:]
+				h1 = h1.reshape((len(h1),1))
+				h1 = np.dot(self.l2.T, h1)
+				h1 = np.exp(h1) / np.sum(np.exp(h1), axis=0, keepdims=True)
+				h2 = self.l1[word2,:]
+				h2 = h2.reshape((len(h2),1))
+				h2 = np.dot(self.l2.T, h2)
+				h2 = np.exp(h2) / np.sum(np.exp(h2), axis=0, keepdims=True)
+				return np.dot(h1.T, h2)[0][0]
+			else:
+				return 0
 
-def load(self, path):
-		tmp = np.load(path+".npy", allow_pickle=True)
-		self.l1 = tmp[0]
-		self.l2 = tmp[1]
-		self.all_losses = tmp[2]
-		self.id2w = tmp[3]
-		self.w2id = tmp[4]
+	def load(self, path):
+			tmp = np.load(path+".npy", allow_pickle=True)
+			self.l1 = tmp[0]
+			self.l2 = tmp[1]
+			self.all_losses = tmp[2]
+			self.id2w = tmp[3]
+			self.w2id = tmp[4]
 
 
 
