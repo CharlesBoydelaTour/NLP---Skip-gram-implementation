@@ -182,7 +182,7 @@ if __name__ == '__main__':
 
 	else:
 		pairs = loadPairs(opts.text)
-
+  
 		sg = SkipGram("")
 		sg.load(opts.model)
 		for a,b,_ in pairs:

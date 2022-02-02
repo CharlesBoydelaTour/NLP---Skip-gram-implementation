@@ -15,8 +15,7 @@ TESTDATA=simlex.csv
 TRAINDATA=train.txt
 RESULTFILE=results.txt
 REPORT=report.pdf
-NLINES=1000 # number of lines, play around with increasing numbers
-
+NLINES=5000 # number of lines, play around with increasing numbers
 
 # download training text data
 if [ -f 1-billion-word-language-modeling-benchmark-r13output.tar.gz ]
@@ -56,7 +55,6 @@ python skipGram.py --model mymodel.model --text $TRAINDATA
 echo "INFO: running testing"
 python skipGram.py --test --model mymodel.model --text $TESTDATA > $RESULTFILE
 
-
 echo "INFO: checking format"
 echo "INFO: checking number of lines"
 # check number of lines is correct
@@ -88,7 +86,7 @@ fi
 
 
 echo "INFO: cleaning up"
-rm $RESULTFILE
+#rm $RESULTFILE
 
 
 $SHELL

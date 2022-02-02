@@ -1,0 +1,1998 @@
+old new
+0.008756012165064686
+smart intelligent
+0.0007081426148989616
+hard difficult
+0.004396778261397608
+happy cheerful
+0.0
+hard easy
+0.0034630843394969453
+fast rapid
+0.001966385130803152
+happy glad
+0.0009233808503522375
+short long
+0.005236135227035789
+stupid dumb
+0.0
+weird strange
+0.0009077448866098814
+wide narrow
+0.002000005628352504
+bad awful
+0.001393974069030824
+easy difficult
+0.0036622555974331174
+bad terrible
+0.0027315969595735194
+hard simple
+0.002434008361839372
+smart dumb
+0.0007909799447718742
+insane crazy
+0.0
+happy mad
+0.0008782063909719136
+large huge
+0.004889226410958849
+hard tough
+0.0021495064258507616
+new fresh
+0.005405668532473829
+sharp dull
+0.0012657782346183007
+quick rapid
+0.0016132789574870758
+dumb foolish
+0.0004233505936565066
+wonderful terrific
+0.0005398081094758582
+strange odd
+0.0010350124005225397
+happy angry
+0.0017098462787674194
+narrow broad
+0.001972451424261437
+simple easy
+0.0020574105672183157
+old fresh
+0.003242912178321482
+apparent obvious
+0.0
+inexpensive cheap
+0.0008891290305865526
+nice generous
+0.002083617552369519
+weird normal
+0.0007449048655872779
+weird odd
+0.000646522747464943
+bad immoral
+0.0
+sad funny
+0.001010547380970033
+wonderful great
+0.001638298846333835
+guilty ashamed
+0.0013380645778737947
+beautiful wonderful
+0.0007917828061305285
+confident sure
+0.0029101380229775756
+dumb dense
+0.0
+large big
+0.006122149301380254
+nice cruel
+0.0014857585400622718
+impatient anxious
+0.0
+big broad
+0.003984837014386465
+strong proud
+0.002671895092086243
+unnecessary necessary
+0.0010857844380294222
+restless young
+0.0
+dumb intelligent
+0.0004534338152250448
+bad great
+0.005155524300029673
+difficult simple
+0.0025668391953811093
+necessary important
+0.0033100376154556717
+bad terrific
+0.0013713257315002235
+mad glad
+0.0003908626252230215
+honest guilty
+0.0020497305643398405
+easy tough
+0.001822595670320652
+easy flexible
+0.0012383286882095142
+certain sure
+0.002783311218647222
+essential necessary
+0.0011171015954224055
+different normal
+0.002176931375896316
+sly clever
+0.0
+crucial important
+0.0031884157843193968
+harsh cruel
+0.0010074083074099113
+childish foolish
+0.0
+scarce rare
+0.0
+friendly generous
+0.0015990251573347763
+fragile frigid
+0.0
+long narrow
+0.0030466921239623974
+big heavy
+0.003782185445533053
+rough frigid
+0.0
+bizarre strange
+0.0008585506446979006
+illegal immoral
+0.0
+bad guilty
+0.004493249828157205
+modern ancient
+0.0019167972645171344
+new ancient
+0.004128291513671852
+dull funny
+0.0006837883304461613
+happy young
+0.0038606001122370656
+easy big
+0.0044143170784106105
+great awful
+0.0013899223133375677
+tiny huge
+0.002018040096131035
+polite proper
+0.000911607731470252
+modest ashamed
+0.0
+exotic rare
+0.001515016520253622
+dumb clever
+0.000497748773080023
+delightful wonderful
+0.0
+noticeable obvious
+0.0
+afraid anxious
+0.0
+formal proper
+0.0017668957363261603
+dreary dull
+0.0
+delightful cheerful
+0.0
+unhappy mad
+0.00039824442735375104
+sad terrible
+0.00173877993676219
+sick crazy
+0.0010132638089313433
+violent angry
+0.0017566190899203239
+laden heavy
+0.0013638228688666243
+dirty cheap
+0.0010992672675792356
+elastic flexible
+0.0
+hard dense
+0.0
+recent new
+0.01090164841525061
+bold proud
+0.001473212416295628
+sly strange
+0.0
+strange sly
+0.0
+dumb rare
+0.001041783936308604
+sly tough
+0.0
+terrific mad
+0.0004182478158281116
+modest flexible
+0.0
+fresh wide
+0.00229204415881502
+huge dumb
+0.0013378786034901559
+large flexible
+0.0016207224428750483
+dirty narrow
+0.0010544675799321562
+wife husband
+0.003673136226837246
+book text
+0.003202382593927358
+groom bride
+0.0
+night day
+0.007839701264600072
+south north
+0.006453903954542066
+plane airport
+0.002750758742040872
+uncle aunt
+0.0
+horse mare
+0.0
+bottom top
+0.0023174134595468285
+friend buddy
+0.0014861594007587796
+student pupil
+0.0017312079601049875
+world globe
+0.005360621681464469
+leg arm
+0.0014104015269782067
+plane jet
+0.0016823761284863238
+woman man
+0.005442979798342343
+horse colt
+0.0
+actress actor
+0.0009763143429811977
+teacher instructor
+0.0
+movie film
+0.003552979328397289
+bird hawk
+0.0011815278388631167
+word dictionary
+0.0012406926411951179
+money salary
+0.0038117191509139657
+dog cat
+0.0009939162789488738
+area region
+0.005678161238790791
+navy army
+0.0021405842063859106
+book literature
+0.0013893958303728944
+clothes closet
+0.0011011741032593903
+sunset sunrise
+0.0
+child adult
+0.0014914893750489896
+cow cattle
+0.0006587177483979668
+book story
+0.004915209318896434
+winter summer
+0.0028923177263728266
+taxi cab
+0.0007966421727075335
+tree maple
+0.0
+bed bedroom
+0.0011154529232042726
+roof ceiling
+0.0013724698399628832
+disease infection
+0.0023195481943802413
+arm shoulder
+0.0010117046713137867
+sheep lamb
+0.0
+lady gentleman
+0.0
+boat anchor
+0.0
+priest monk
+0.0006222401122711144
+toe finger
+0.0
+river stream
+0.0016089881657460393
+anger fury
+0.0
+date calendar
+0.0009955698668598755
+sea ocean
+0.001694763437458649
+second minute
+0.0046217291602254585
+hand thumb
+0.0
+wood log
+0.001156907005149193
+mud dirt
+0.0006861006603806885
+hallway corridor
+0.0
+way manner
+0.003637106068824144
+mouse cat
+0.0007694536841091212
+cop sheriff
+0.002233915469588523
+death burial
+0.0022930186656631444
+music melody
+0.0
+beer alcohol
+0.0007970902652661772
+mouth lip
+0.0010335898867369186
+storm hurricane
+0.0011268636186513362
+tax income
+0.005196099183531881
+flower violet
+0.0
+paper cardboard
+0.0012245656994858594
+floor ceiling
+0.0019100440536745172
+beach seashore
+0.0
+rod curtain
+0.0007640611911053616
+hound fox
+0.0
+street alley
+0.0
+boat deck
+0.0
+car horn
+0.0016223986188087125
+friend guest
+0.0016955583436254668
+employer employee
+0.0011681214630270844
+hand wrist
+0.0012936152472559444
+ball cannon
+0.0
+alcohol brandy
+0.0
+victory triumph
+0.0
+telephone booth
+0.0018766798815174463
+door doorway
+0.0
+motel inn
+0.0
+clothes cloth
+0.0
+steak meat
+0.0007928163105407224
+nail thumb
+0.0
+band orchestra
+0.0013457883496875264
+book bible
+0.002795164409755965
+business industry
+0.006437179020102304
+winter season
+0.003134902250704138
+decade century
+0.0028934437087185703
+alcohol gin
+0.0
+hat coat
+0.0006329683625124601
+window door
+0.0016612180456254597
+arm wrist
+0.0006233397012380835
+house apartment
+0.0031251574779120484
+glass crystal
+0.0008511264776903389
+wine brandy
+0.0
+creator maker
+0.0008235437968601247
+dinner breakfast
+0.0020462837958773045
+arm muscle
+0.0
+bubble suds
+0.0
+bread flour
+0.0
+death tragedy
+0.0018019123336018806
+absence presence
+0.0010235121113531074
+gun cannon
+0.0
+grass blade
+0.0
+ball basket
+0.0012495332981933014
+hose garden
+0.0
+boy kid
+0.0024444228379096765
+church choir
+0.0
+clothes drawer
+0.0
+tower bell
+0.0010413613321797169
+father parent
+0.002174455578537443
+school grade
+0.0026875180928507664
+parent adult
+0.0008379228220452306
+bar jail
+0.0019295253687441325
+car highway
+0.003687273804561412
+dictionary definition
+0.0005932275515125489
+door cellar
+0.0
+army legion
+0.0021806024390536582
+metal aluminum
+0.0009004383159725044
+chair bench
+0.0011399092703774983
+cloud fog
+0.0
+boy son
+0.004635196262217634
+water ice
+0.0
+bed blanket
+0.0
+attorney lawyer
+0.0028178325897273582
+area zone
+0.003067089905797041
+business company
+0.009116283400431587
+clothes fabric
+0.0008393638159871187
+sweater jacket
+0.0
+money capital
+0.006298417835243918
+hand foot
+0.0027816255876805555
+alcohol cocktail
+0.0
+yard inch
+0.0026815656748572997
+molecule atom
+0.0
+lens camera
+0.0017241753527426165
+meal dinner
+0.0012069992745611336
+eye tear
+0.0021113873075744045
+god devil
+0.0011680337322600345
+loop belt
+0.0
+rat mouse
+0.0009604189911900423
+motor engine
+0.0011003156606715215
+car cab
+0.0016476110877272803
+cat lion
+0.0006966379407729291
+size magnitude
+0.0008098057542927391
+reality fantasy
+0.0007356170504627995
+door gate
+0.0015648828390896956
+cat pet
+0.0
+tin aluminum
+0.0
+bone jaw
+0.0
+cereal wheat
+0.0012444474869522948
+house key
+0.006489718817165772
+blood flesh
+0.001121701435926688
+door corridor
+0.0009562973538010884
+god spirit
+0.001857509873869942
+capability competence
+0.0
+abundance plenty
+0.0
+sofa chair
+0.0006962831723778832
+wall brick
+0.0018965010770390452
+horn drum
+0.0004955885967042233
+organ liver
+0.0
+strength might
+0.0017518713849981188
+phrase word
+0.0
+band parade
+0.002232989585851936
+stomach waist
+0.0006361608482470179
+cloud storm
+0.0012549456007746112
+joy pride
+0.0010019958486250635
+noise rattle
+0.0
+rain mist
+0.0
+beer beverage
+0.0010243085327142994
+man uncle
+0.0023408036788567046
+apple juice
+0.0013765518276446318
+intelligence logic
+0.0015345882530210253
+communication language
+0.0014674373898880314
+mink fur
+0.0
+mob crowd
+0.0015874513879370598
+shore coast
+0.0016491484193983123
+wire cord
+0.0
+bird turkey
+0.001928413727568798
+bed crib
+0.0
+competence ability
+0.0015359462985209812
+cloud haze
+0.0
+supper meal
+0.0
+bar cage
+0.0
+water salt
+0.0015112401726799084
+sense intuition
+0.0
+situation condition
+0.003184508112764553
+crime theft
+0.002466142709917697
+style fashion
+0.0018852664714228528
+boundary border
+0.0
+arm body
+0.00192315795314416
+boat car
+0.0034073437146526853
+sandwich lunch
+0.0010456277127626767
+bride princess
+0.0
+heroine hero
+0.0
+car gauge
+0.0023600718091426527
+insect bee
+0.0
+crib cradle
+0.0
+animal person
+0.003048110288817996
+marijuana herb
+0.0
+bed hospital
+0.0022090922893576352
+cheek tongue
+0.0
+disc computer
+0.001196047504330353
+curve angle
+0.0
+grass moss
+0.0
+school law
+0.00664915569110868
+foot head
+0.003280983648469492
+mother guardian
+0.001858729903598035
+orthodontist dentist
+0.0
+alcohol whiskey
+0.0004064429395058098
+mouth tooth
+0.001008199905671528
+breakfast bacon
+0.0
+bathroom bedroom
+0.0
+plate bowl
+0.0014398608012057708
+meat bacon
+0.0
+air helium
+0.0
+worker employer
+0.0010518257754804246
+body chest
+0.0017638377248419695
+son father
+0.004558530342641904
+heart surgery
+0.003034953923760479
+woman secretary
+0.004301479241807014
+man father
+0.005354640800358503
+beach island
+0.001119511611586559
+story topic
+0.002027995756259867
+game fun
+0.003525337663837129
+weekend week
+0.006753602923797875
+couple pair
+0.002701473671730652
+woman wife
+0.0047481171641171925
+sheep cattle
+0.0009713153400782312
+purse bag
+0.0009831339315173
+ceiling cathedral
+0.0013000018974806877
+bean coffee
+0.0010263222742198377
+wood paper
+0.0024361382132126984
+top side
+0.006354373120707611
+crime fraud
+0.0023332333971152258
+pain harm
+0.0014780817837304057
+lover companion
+0.0
+evening dusk
+0.0
+father daughter
+0.0036328937659813416
+wine liquor
+0.0
+cow goat
+0.0006292830403802402
+belief opinion
+0.00296640717044341
+reality illusion
+0.0
+pact agreement
+0.0022343680156353346
+wealth poverty
+0.0012810281968270612
+accident emergency
+0.002402466729916433
+battle conquest
+0.0
+friend teacher
+0.0026300370254230343
+illness infection
+0.0013456007881751067
+game trick
+0.0016039713525872262
+brother son
+0.0032691197113588594
+aunt nephew
+0.0
+worker mechanic
+0.0
+doctor orthodontist
+0.0010595428690292543
+oak maple
+0.0
+bee queen
+0.0
+car bicycle
+0.001550351979804019
+goal quest
+0.0020706346083693545
+august month
+0.0048845975678293374
+army squad
+0.0033348486580768565
+cloud weather
+0.0015294363149672534
+physician doctor
+0.0
+canyon valley
+0.001838191156783696
+river valley
+0.0028525025586681576
+sun sky
+0.0015469677461824158
+target arrow
+0.0009861807862929254
+chocolate pie
+0.0
+circumstance situation
+0.0
+opinion choice
+0.00304520788723655
+rhythm melody
+0.0
+gut nerve
+0.0
+day dawn
+0.002914270446800865
+cattle beef
+0.0007231098373338119
+doctor professor
+0.0023851923997825087
+arm vein
+0.0
+room bath
+0.001392706955520556
+corporation business
+0.003210069348331144
+fun football
+0.0025361599550131316
+hill cliff
+0.0
+bone ankle
+0.0008347217206444008
+apple candy
+0.0013038588506340612
+helper maid
+0.0
+leader manager
+0.0048390249070586035
+lemon tea
+0.0011605244556729887
+bee ant
+0.0
+basketball baseball
+0.0011790169253591467
+rice bean
+0.0009989705197928707
+bed furniture
+0.0012870073401550785
+emotion passion
+0.0016982067608023784
+anarchy chaos
+0.0
+crime violation
+0.0015742836558586427
+machine engine
+0.0010710068230682399
+beach sea
+0.0008850855946089042
+alley bowl
+0.0
+jar bottle
+0.0007122681318045624
+strength capability
+0.0
+seed mustard
+0.0
+guitar drum
+0.0006601794844998476
+opinion idea
+0.003952288855146473
+north west
+0.006352699774194691
+diet salad
+0.0
+mother wife
+0.0047511615618681035
+dad mother
+0.0
+captain sailor
+0.0
+meter yard
+0.0014604038747351934
+beer champagne
+0.0009429862283695081
+motor boat
+0.0017123459455555012
+card bridge
+0.002598608871606446
+science psychology
+0.0023796621363148555
+sinner saint
+0.0
+destruction construction
+0.0017950909974769787
+crowd bunch
+0.0015251194240664106
+beach reef
+0.0005306536000034075
+man child
+0.005290892163954595
+bread cheese
+0.0
+champion winner
+0.0032290939587796687
+celebration ceremony
+0.0007658748503577597
+menu order
+0.0
+king princess
+0.0026295963776657746
+wealth prestige
+0.0
+endurance strength
+0.0
+danger threat
+0.0021873327449536536
+god priest
+0.000904278508350239
+men fraternity
+0.0
+buddy companion
+0.0
+teacher helper
+0.0010069935466611925
+body stomach
+0.00191528708269446
+tongue throat
+0.0
+house carpet
+0.0019397948504085896
+intelligence skill
+0.0017589269626476498
+journey conquest
+0.0
+god prey
+0.0009555197879867726
+brother soul
+0.0015742373980758549
+adversary opponent
+0.0
+death catastrophe
+0.0011695985826586102
+monster demon
+0.0
+day morning
+0.007036031315559245
+man victor
+0.0
+friend guy
+0.0023288985986773913
+song story
+0.0024608729697331105
+ray sunshine
+0.0
+guy stud
+0.0
+chicken rice
+0.0012582059706951279
+box elevator
+0.001093550330346509
+butter potato
+0.0
+apartment furniture
+0.0013845353168763527
+lake swamp
+0.0
+salad vinegar
+0.0
+flower bulb
+0.0
+cloud mist
+0.0
+driver pilot
+0.0015746436718227148
+sugar honey
+0.0
+body shoulder
+0.0026572448361599677
+idea image
+0.0033159691737602395
+father brother
+0.0031104334376882686
+moon planet
+0.0009247094394385871
+ball costume
+0.0
+rail fence
+0.0015179715862316462
+room bed
+0.0020064392944777617
+flower bush
+0.0
+bone knee
+0.0007512512110715434
+arm knee
+0.00104663056078026
+bottom side
+0.0023986353018924716
+vessel vein
+0.0
+cat rabbit
+0.0
+meat sandwich
+0.001073148140678009
+belief concept
+0.0021130606999818493
+intelligence insight
+0.0
+attention interest
+0.004053857117164271
+attitude confidence
+0.0021012810421850076
+right justice
+0.005817060652488127
+argument agreement
+0.002307564793352617
+depth magnitude
+0.0004016214858358887
+medium news
+0.0019975447942839446
+winner candidate
+0.0032281132849812317
+birthday date
+0.0015663214606064068
+fee payment
+0.002108823490039097
+bible hymn
+0.0
+exit doorway
+0.0
+man sentry
+0.0
+aisle hall
+0.0
+whiskey gin
+0.0
+blood marrow
+0.0
+oil mink
+0.0
+floor deck
+0.0
+roof floor
+0.0021457216074091375
+door floor
+0.0027806982583427576
+shoulder head
+0.0026511753014993988
+wagon carriage
+0.0
+car carriage
+0.0
+elbow ankle
+0.001369935268006411
+wealth fame
+0.001140434262733729
+sorrow shame
+0.0
+administration management
+0.0049719751885948845
+communication conversation
+0.000993732417652968
+pollution atmosphere
+0.0011744070770181559
+anatomy biology
+0.0
+college profession
+0.002545683148549251
+book topic
+0.0020181351574045246
+formula equation
+0.0
+book information
+0.006005387980970738
+boy partner
+0.0042852022005065655
+sky universe
+0.0006768908602188309
+population people
+0.008076220052137305
+college class
+0.004073622255539783
+chief mayor
+0.003011434150971814
+rabbi minister
+0.0026134441324907284
+meter inch
+0.0012907860008803597
+polyester cotton
+0.0
+lawyer banker
+0.0017211165876066035
+violin instrument
+0.0
+camp cabin
+0.0017851457709219482
+pot appliance
+0.0
+linen fabric
+0.0
+whiskey champagne
+0.0004683089943702764
+girl child
+0.0033348014689810615
+cottage cabin
+0.001338132471517448
+bird hen
+0.0
+racket noise
+0.0
+sunset evening
+0.0
+drizzle rain
+0.0
+adult baby
+0.0016198889849700574
+charcoal coal
+0.0
+body spine
+0.0
+head nail
+0.0011669474601442634
+log timber
+0.0
+spoon cup
+0.0
+body nerve
+0.0
+man husband
+0.004189940033514779
+bone neck
+0.00045483821433523874
+frustration anger
+0.000980042220404521
+river sea
+0.002697175143175658
+task job
+0.0035201341148230463
+club society
+0.004440400486298586
+reflection image
+0.0
+prince king
+0.0035445154289136995
+snow weather
+0.0032740338293327175
+people party
+0.010146077715829564
+boy brother
+0.003159970736792845
+root grass
+0.0
+brow eye
+0.0
+money pearl
+0.0
+money diamond
+0.002742940125890008
+vehicle bus
+0.0017573986348416082
+cab bus
+0.000737151538179234
+house barn
+0.003426690220008727
+finger palm
+0.0
+car bridge
+0.004055338332510259
+effort difficulty
+0.002075856523654309
+fact insight
+0.0
+job management
+0.004939597258754457
+cancer sickness
+0.0
+word newspaper
+0.0027543756466375567
+composer writer
+0.001260933438094032
+actor singer
+0.0015128604909523833
+shelter hut
+0.0004768473173616716
+bathroom kitchen
+0.0
+cabin hut
+0.0006800770553003924
+door kitchen
+0.001082406707008293
+value belief
+0.0033036645132700905
+wisdom intelligence
+0.0013268798233670805
+ignorance intelligence
+0.0016541725628744094
+happiness luck
+0.0008040738545593515
+idea scheme
+0.0033091146435878472
+mood emotion
+0.0009373544731805249
+happiness peace
+0.001174921568543679
+despair misery
+0.0
+logic arithmetic
+0.0
+denial confession
+0.0005217717056783156
+argument criticism
+0.0018888017509826405
+aggression hostility
+0.0
+hysteria confusion
+0.0
+chemistry theory
+0.0
+trial verdict
+0.0015780614445945024
+comfort safety
+0.0009878866134186586
+confidence self
+0.001436947474511928
+vision perception
+0.001029425253694835
+era decade
+0.0019053416994961063
+biography fiction
+0.0
+discussion argument
+0.0016044251743581469
+code symbol
+0.0016370166184242433
+danger disease
+0.0021531084219376133
+accident catastrophe
+0.0007068295968332547
+journey trip
+0.0
+activity movement
+0.003235537912955863
+gossip news
+0.00269359345577478
+father god
+0.0026358798973477268
+action course
+0.00498533052484493
+fever illness
+0.0011266387970338704
+aviation flight
+0.001641083893866481
+game action
+0.0064839319207043306
+molecule air
+0.0
+home state
+0.009414653640954597
+word literature
+0.0009992706154472396
+adult guardian
+0.0007248791335553294
+newspaper information
+0.004963439802762676
+communication television
+0.0018551345736246025
+cousin uncle
+0.0007065660412167898
+author reader
+0.0012196563292813628
+guy partner
+0.002437354312529422
+area corner
+0.0038188843134656686
+ballad song
+0.0008726522342937656
+wall decoration
+0.0
+word page
+0.0021524311325139714
+nurse scientist
+0.0016438756370733335
+politician president
+0.0029245092545286283
+president mayor
+0.003290799208268771
+book essay
+0.002015679496784696
+man warrior
+0.0
+article journal
+0.002740187669727534
+breakfast supper
+0.0
+crowd parade
+0.0022628400063928
+aisle hallway
+0.0
+teacher rabbi
+0.001493382488550146
+hip lip
+0.0007766953621697388
+book article
+0.0038504322241542524
+room cell
+0.003332655034476344
+box booth
+0.0018733130532520323
+daughter kid
+0.0020497987371223634
+limb leg
+0.0013451062912270245
+liver lung
+0.0010750339089674642
+classroom hallway
+0.0
+mountain ledge
+0.0
+car elevator
+0.0017900148986959086
+bed couch
+0.0
+clothes button
+0.0015283103370878545
+clothes coat
+0.001110119415865888
+kidney organ
+0.0
+apple sauce
+0.0010945895623928254
+chicken steak
+0.000559994135612132
+car hose
+0.0
+tobacco cigarette
+0.0009739849096987406
+student professor
+0.0028195950736822116
+baby daughter
+0.003947851028346981
+pipe cigar
+0.0
+milk juice
+0.0011674242113294462
+box cigar
+0.0
+apartment hotel
+0.0017307593690534654
+cup cone
+0.0
+horse ox
+0.0
+throat nose
+0.0
+bone teeth
+0.0006491850399049995
+bone elbow
+0.0006442373966616426
+bacon bean
+0.0
+cup jar
+0.0013251078329662865
+proof fact
+0.0021483223247498713
+appointment engagement
+0.0009923165351901288
+birthday year
+0.0032208360674182987
+word clue
+0.0015459824959748508
+author creator
+0.0006370575348502619
+atom carbon
+0.0009244437733128048
+archbishop bishop
+0.0
+letter paragraph
+0.0009573475691160696
+page paragraph
+0.0008032809019812123
+steeple chapel
+0.0005581835631119935
+muscle bone
+0.0
+muscle tongue
+0.0
+boy soldier
+0.0036482378301629977
+belly abdomen
+0.0007711448027901587
+guy girl
+0.001982869443208484
+bed chair
+0.0010065179552199146
+clothes jacket
+0.0008329195812412603
+gun knife
+0.0022847573829248287
+tin metal
+0.0
+bottle container
+0.0006466789774095815
+hen turkey
+0.0
+meat bread
+0.0
+arm bone
+0.0005632488186983693
+neck spine
+0.0
+apple lemon
+0.001384703824563915
+agony grief
+0.0
+assignment task
+0.0015314317128028183
+night dawn
+0.002532177857176611
+dinner soup
+0.0
+calf bull
+0.0
+snow storm
+0.002622412634828481
+nail hand
+0.0010150179928752282
+dog horse
+0.0016033897960514593
+arm neck
+0.0006101137418070196
+ball glove
+0.0
+flu fever
+0.0018698813756514126
+fee salary
+0.0016388830143776393
+nerve brain
+0.0
+beast animal
+0.0012138996898427394
+dinner chicken
+0.0012229448829984878
+girl maid
+0.0
+child boy
+0.004348214770861763
+alcohol wine
+0.0008640226442822818
+nose mouth
+0.0007096914121867332
+street car
+0.006699796737137447
+bell door
+0.0018127396439447906
+box hat
+0.0010175418912590673
+belief impression
+0.0019255515932222467
+bias opinion
+0.001407658379877681
+attention awareness
+0.0019796633289099206
+anger mood
+0.001267936833477346
+elegance style
+0.0
+beauty age
+0.0015803445233456555
+book theme
+0.0021997018630492303
+friend mother
+0.0040787487800188656
+vitamin iron
+0.0
+car factory
+0.0024718101325486063
+pact condition
+0.001934231684144483
+chapter choice
+0.001984977909760075
+arithmetic rhythm
+0.0
+winner presence
+0.002250905069618065
+belief flower
+0.0
+winner goal
+0.0037845888666680847
+trick size
+0.0009842559880350818
+choice vein
+0.0
+hymn conquest
+0.0
+endurance band
+0.0
+jail choice
+0.002260903219972294
+condition boy
+0.0038229736964925844
+flower endurance
+0.0
+hole agreement
+0.0019984654303381606
+doctor temper
+0.0017729146980662647
+fraternity door
+0.0
+task woman
+0.00338428431783535
+fraternity baseball
+0.0
+cent size
+0.003958935607983807
+presence door
+0.0021235375129280225
+mouse management
+0.002601558054290071
+task highway
+0.0022641643724331645
+liquor century
+0.0
+task straw
+0.0014284121936317458
+island task
+0.00290561840424614
+night chapter
+0.0029676423875765225
+pollution president
+0.003257905788488661
+gun trick
+0.001111777788454037
+bath trick
+0.0005007680705743282
+diet apple
+0.002463021203749686
+cent wife
+0.0057212848039506
+chapter tail
+0.0011802226038740518
+course stomach
+0.0017909694470036978
+hymn straw
+0.0
+dentist colonel
+0.0
+wife straw
+0.0019224250197186715
+hole wife
+0.0021042379619849003
+pupil president
+0.0027890423404349444
+bath wife
+0.0015206479643306895
+people cent
+0.009629771512527452
+formula log
+0.000972741074209393
+woman fur
+0.0
+apple sunshine
+0.0
+gun dawn
+0.0018548554790023832
+meal waist
+0.00067780647316011
+camera president
+0.00579249821104014
+liquor band
+0.0
+stomach vein
+0.0
+gun fur
+0.0
+couch baseball
+0.0
+worker camera
+0.0023141051837357552
+deck mouse
+0.0
+rice boy
+0.002804131082613371
+people gun
+0.006691448318716773
+cliff tail
+0.0
+ankle window
+0.0014310241202092583
+princess island
+0.002521374072708844
+container mouse
+0.000699500616617843
+wagon container
+0.0
+people balloon
+0.0039862390988477095
+dollar people
+0.006430042258703594
+bath balloon
+0.0008506499048710461
+stomach bedroom
+0.0009448224207938054
+bicycle bedroom
+0.0007164054008566229
+log bath
+0.0006388091664128382
+bowl tail
+0.0013269022738523933
+go come
+0.006810144156954145
+take steal
+0.0
+listen hear
+0.0024710209118264503
+think rationalize
+0.0
+occur happen
+0.0019793992804355365
+vanish disappear
+0.0
+multiply divide
+0.0
+plead beg
+0.0
+begin originate
+0.0
+protect defend
+0.002546190871158293
+kill destroy
+0.002003996777041833
+create make
+0.00659720725130603
+accept reject
+0.0012683899150644196
+ignore avoid
+0.0010097965998705537
+carry bring
+0.003179697891088073
+leave enter
+0.003083921407431818
+choose elect
+0.001766090812937061
+lose fail
+0.0020658841017225137
+encourage discourage
+0.0
+achieve accomplish
+0.0
+make construct
+0.0018061043319463183
+listen obey
+0.0
+inform notify
+0.0
+receive give
+0.003423663510273686
+borrow beg
+0.0
+take obtain
+0.0
+advise recommend
+0.0
+imitate portray
+0.0
+win succeed
+0.003147551252947457
+think decide
+0.003858877638974941
+greet meet
+0.0020164465789713044
+agree argue
+0.0019185493278554787
+enjoy entertain
+0.0014296264329231405
+destroy make
+0.0036129883170183965
+save protect
+0.0033359062682916333
+give lend
+0.0013994357563490377
+understand know
+0.0046515151403716225
+take receive
+0.004038295454573026
+accept acknowledge
+0.0013109004164196005
+decide choose
+0.002359993077776731
+accept believe
+0.0031323311597331698
+keep possess
+0.0
+roam wander
+0.0
+succeed fail
+0.001708114875631334
+spend save
+0.0031088246162483068
+leave go
+0.0052368148867889385
+come attend
+0.0034690907762410586
+know believe
+0.0060458508636631785
+gather meet
+0.00222824735010049
+make earn
+0.0022246247386554
+forget ignore
+0.0006263473857712157
+multiply add
+0.0
+shrink grow
+0.0
+arrive leave
+0.0023692797425665553
+succeed try
+0.002683479653388959
+accept deny
+0.0
+arrive come
+0.002993817144345923
+agree differ
+0.0
+send receive
+0.0021756975995770927
+win dominate
+0.002875728068430333
+add divide
+0.0014267992685739984
+kill choke
+0.0011493302017145525
+acquire get
+0.002412551596881851
+participate join
+0.0020036892357549385
+leave remain
+0.0034451924450005673
+go enter
+0.00394880878726258
+take carry
+0.004398476800775763
+forget learn
+0.0015306607031181905
+appoint elect
+0.0
+engage marry
+0.0011125727676346464
+ask pray
+0.0011446663909566203
+go send
+0.0037799057836043095
+take deliver
+0.004714650897847965
+speak hear
+0.002883896187608738
+analyze evaluate
+0.0007824722946809035
+argue rationalize
+0.0
+lose keep
+0.0030296774402177274
+compare analyze
+0.001003429139036455
+disorganize organize
+0.0
+go allow
+0.0054141806825178
+take possess
+0.0
+learn listen
+0.002567257725900807
+destroy construct
+0.0008502977553088863
+create build
+0.004497290203650997
+steal buy
+0.0
+kill hang
+0.0007823277538672107
+forget know
+0.0022200808211414436
+create imagine
+0.0
+do happen
+0.005604173915607521
+win accomplish
+0.0
+give deny
+0.0
+deserve earn
+0.0005686470387699538
+get put
+0.009316206187665122
+locate find
+0.002189682990400121
+appear attend
+0.0024387855748659324
+know comprehend
+0.0
+pretend imagine
+0.0
+satisfy please
+0.0
+cherish keep
+0.0
+argue differ
+0.0
+overcome dominate
+0.0013040785839143348
+behave obey
+0.0
+cooperate participate
+0.0
+achieve try
+0.0027379265073318197
+fail discourage
+0.0
+begin quit
+0.001319421955951567
+say participate
+0.0034501660237440295
+come bring
+0.005198950108113977
+declare announce
+0.0011959300514561867
+read comprehend
+0.0
+take leave
+0.005649075741985537
+proclaim announce
+0.0
+acquire obtain
+0.0
+conclude decide
+0.0015983034601104696
+please plead
+0.0
+argue prove
+0.0017472659405418874
+ask plead
+0.0
+find disappear
+0.0
+inspect examine
+0.0
+verify justify
+0.0010132119846205023
+assume predict
+0.0011667170938365402
+learn evaluate
+0.0017757716810675424
+argue justify
+0.001611536562855944
+make become
+0.007302588918251593
+discover originate
+0.0
+achieve succeed
+0.0015866315474905128
+give put
+0.00692020335069954
+understand listen
+0.002807748118866199
+expand grow
+0.0030078831301519537
+borrow sell
+0.00180606355024248
+keep protect
+0.0038935234818977408
+explain prove
+0.0018574647318921253
+assume pretend
+0.0
+agree please
+0.0022434820058510317
+forgive forget
+0.0
+clarify explain
+0.0
+understand forgive
+0.0
+remind forget
+0.0
+get remain
+0.00529668886463676
+realize discover
+0.0010565616137116365
+require inquire
+0.0
+ignore ask
+0.0012308614146817503
+think inquire
+0.0
+reject avoid
+0.0014882626730026382
+argue persuade
+0.0013770793801973302
+pursue persuade
+0.0
+accept forgive
+0.0
+do quit
+0.002324230855485872
+investigate examine
+0.0016276936341771998
+discuss explain
+0.002007728888552282
+owe lend
+0.0005682336652197745
+explore discover
+0.0013361056972558403
+complain argue
+0.0011582499878265548
+withdraw reject
+0.0006456162340743397
+keep borrow
+0.0022128339830213557
+beg ask
+0.0
+arrange organize
+0.0
+reduce shrink
+0.0
+speak acknowledge
+0.0017006123860015484
+give borrow
+0.002553175909978116
+kill defend
+0.002143622822876176
+disappear shrink
+0.0
+deliver carry
+0.0026988952620642715
+breathe choke
+0.0005059542683642037
+acknowledge notify
+0.0
+become seem
+0.0039082744523334855
+pretend seem
+0.0
+accomplish become
+0.0
+contemplate think
+0.0
+determine predict
+0.0015929655466246952
+please entertain
+0.001271705006913041
+remain retain
+0.0017417113897357386
+pretend portray
+0.0
+forget retain
+0.0009718155833176354
+want choose
+0.0043453681516595
+lose get
+0.004603996934809464
+try think
+0.006010085271522619
+become appear
+0.004249692089847266
+leave ignore
+0.0012216163731927194
+accept recommend
+0.0015833746848677125
+leave wander
+0.0
+keep give
+0.004767617805519301
+give allow
+0.004909524519517309
+bring send
+0.002947885438562652
+absorb learn
+0.0013375781724077153
+acquire find
+0.0020218882285810208
+leave appear
+0.0035919588510550274
+create destroy
+0.0026525654095802364
+begin go
+0.004077034077638807
+get buy
+0.007098569660411579
+collect save
+0.0016525017867987189
+replace restore
+0.0018708584116228339
+join add
+0.0027772675520325724
+join marry
+0.0022809827613325
+accept deliver
+0.0022858074518788602
+attach join
+0.0
+put hang
+0.0012461985759779717
+go sell
+0.004176953717701453
+communicate pray
+0.0006190771117385271
+give steal
+0.0
+add build
+0.00328179709899753
+bring restore
+0.002989508030818511
+comprehend satisfy
+0.0
+portray decide
+0.0
+organize become
+0.0
+give know
+0.006035535069395837
+say verify
+0.0021479691388039605
+cooperate join
+0.0
+arrange require
+0.0007901244030663048
+borrow want
+0.0028852609206191622
+investigate pursue
+0.0
+ignore explore
+0.0008595129699612396
+bring complain
+0.0018387410108972834
+enter owe
+0.0012587365857823238
+portray notify
+0.0
+remind sell
+0.0
+absorb possess
+0.0
+join acquire
+0.0014504283417740905
+send attend
+0.002028437419126274
+gather attend
+0.0014361117015826473
+absorb withdraw
+0.0005710404268779258
+attend arrive
+0.001645116220279086

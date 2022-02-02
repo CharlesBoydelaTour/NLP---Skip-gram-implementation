@@ -14,7 +14,6 @@ __emails__  = ['charles.boy-de-la-tour@student-cs.fr','gabriel.drai@student-cs.f
 
 def text2sentences(path):
 	# feel free to make a better tokenization/pre-processing
-	####### How to go deeper in tokenization ?
 	sentences = []
 	with open(path) as f:
 		for l in f:
@@ -73,9 +72,8 @@ class SkipGram:
 		self.negativeRate = negativeRate
 		self.learning_rate = 0.01
   
-		self.l1 = np.random.randn(len(self.vocab), self.nEmbed)*0.01 # word embedding layer, each row represents a word
-		self.l2 = np.random.randn(self.nEmbed, len(self.vocab))*0.01 # dense layer (for each word, what is the probability given input word)
-  
+		self.l1 = np.random.randn(len(self.vocab), self.nEmbed)*0.001
+		self.l2 = np.random.randn(self.nEmbed, len(self.vocab))*0.001
 
 		self.all_losses = []
 
@@ -88,43 +86,54 @@ class SkipGram:
 		return neg
 
 	def train(self):
-		self.trainWords = 0
-		self.accLoss = 0.
-		for sentence in self.trainset:
-			sentence = list(filter(lambda word: word in self.vocab, sentence))
-			for wpos, word in enumerate(sentence):
-				wIdx = self.w2id[word]
-				winsize = np.random.randint(self.winSize) + 1
-				start = max(0, wpos - winsize)
-				end = min(wpos + winsize + 1, len(sentence))
+		for epoch in range(10):
+			self.trainWords = 0
+			self.accLoss = 0.
+			for sentence in self.trainset:
+				sentence = list(filter(lambda word: word in self.vocab, sentence))
+				for wpos, word in enumerate(sentence):
+					wIdx = self.w2id[word]
+					winsize = np.random.randint(self.winSize) + 1
+					start = max(0, wpos - winsize)
+					end = min(wpos + winsize + 1, len(sentence))
 
-				ctxtIds = [self.w2id[x] for x in sentence[start:end] if x != word]
+					ctxtIds = [self.w2id[x] for x in sentence[start:end] if x != word]
 
-				for ctxtId in ctxtIds:
-					negativeIds = 0#self.sample((wIdx, ctxtId))
-					self.accLoss += self.trainWord(wIdx, ctxtId, negativeIds)
-					self.trainWords += 1
-		loss = self.accLoss/self.trainWords
-		self.all_losses.append(loss)
-		print("Cross Entropy Loss: ", loss)
+					for ctxtId in ctxtIds:
+						negativeIds = 0 #self.sample((wIdx, ctxtId))
+						self.accLoss += self.trainWord(wIdx, ctxtId, negativeIds)
+						self.trainWords += 1
+			loss = self.accLoss/self.trainWords
+			self.all_losses.append(loss)
+			print("Cross Entropy Loss: ", loss)
 
 	def trainWord(self, wordId, contextId, negativeIds):
+		## is it np.outer ?
 		#Forward pass
-		l1 = self.l1[wordId,:] # selecting the row i of the word embedding layer
-		z = np.dot(l1, self.l2) # dot product of the row i and the dense layer
-		pred = expit(z) # applying softmax
-		#Cost function
-		cost = -np.log(pred[contextId]) - np.sum(np.log(-pred[negativeIds]))
-		#Stochastic gradient descent
-		pred[contextId] -= 1 
-		pred[negativeIds] -= 1 
-		l1_grad = np.dot(pred, self.l2.T)
-		l2_grad = np.dot(l1.reshape(self.nEmbed, 1), pred.reshape(1, len(self.vocab)))
-		self.l1[wordId,:] -= self.learning_rate * l1_grad
-		self.l2 -= self.learning_rate * l2_grad
-		return np.sum(cost)
+		l1 = self.l1[wordId,:]
+		# Positive
+		l2_pos = self.l2[:,contextId]
+		prod_pos = np.dot(l1, l2_pos)
+		loss_pos = -np.log(expit(prod_pos))
+		# Negative
+		l2_neg = self.l2[:,negativeIds]
+		prod_neg = np.dot(l1, l2_neg)
+		loss_neg = -np.sum(np.log(expit(-prod_neg)))
+		# Gradients with respect to l2 weight
+		grad_l2_pos = np.dot(expit(prod_pos)-1,l1)
+		grad_l2_neg = np.dot(expit(prod_neg),l1)
+		# Gradients with respect to l1 weight
+		grad_l1 = np.dot(expit(prod_pos)-1,l2_pos) + np.sum(np.dot(expit(prod_neg),l2_neg))
+		# Update l2
+		self.l2[:,contextId] -= self.learning_rate*grad_l2_pos
+		self.l2[:,negativeIds] -= self.learning_rate*grad_l2_neg
+		# Update l1
+		self.l1[wordId,:] -= self.learning_rate*grad_l1
+		# Compute loss
+		loss = loss_pos + loss_neg
+		return loss
 
-  
+
   
 	def save(self, path):
 		np.save(path, np.array([self.l1,
@@ -155,7 +164,7 @@ class SkipGram:
 			h2 = np.exp(h2) / np.sum(np.exp(h2), axis=0, keepdims=True)
 			return np.dot(h1.T, h2)[0][0]
 		else:
-			return 0
+			return 0.0
 
 	def load(self, path):
 		tmp = np.load(path+".npy", allow_pickle=True)
@@ -185,10 +194,10 @@ if __name__ == '__main__':
 
 	else:
 		pairs = loadPairs(opts.text)
-
 		sg = SkipGram("")
 		sg.load(opts.model)
 		for a,b,_ in pairs:
+			print(a,b)
             # make sure this does not raise any exception, even if a or b are not in sg.vocab
-			print('{:f}'.format(sg.similarity(a,b)))
-
+			print(sg.similarity(a,b))
+    
