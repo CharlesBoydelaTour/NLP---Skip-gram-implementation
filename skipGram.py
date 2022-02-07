@@ -197,7 +197,7 @@ if __name__ == '__main__':
 		sg = SkipGram("")
 		sg.load(opts.model)
 		for a,b,_ in pairs:
-			print(a,b)
+			#print(a,b)
             # make sure this does not raise any exception, even if a or b are not in sg.vocab
 			print(sg.similarity(a,b))
     
