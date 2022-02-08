@@ -71,9 +71,9 @@ class SkipGram:
 		self.nEmbed = nEmbed
 		self.negativeRate = negativeRate
 		self.learning_rate = 0.01
-  
-		self.l1 = np.random.randn(len(self.vocab), self.nEmbed)*0.001
-		self.l2 = np.random.randn(self.nEmbed, len(self.vocab))*0.001
+
+		self.l1 = np.random.uniform(-0.001,0.001,(len(self.vocab), self.nEmbed))
+		self.l2 = np.random.uniform(-0.001,0.001,(self.nEmbed, len(self.vocab)))
 
 		self.all_losses = []
 
@@ -105,7 +105,7 @@ class SkipGram:
 						self.trainWords += 1
 			loss = self.accLoss/self.trainWords
 			self.all_losses.append(loss)
-			print("Cross Entropy Loss: ", loss)
+			print("epoch ",epoch+1, "Cross Entropy Loss: ", loss)
 
 	def trainWord(self, wordId, contextId, negativeIds):
 		## is it np.outer ?
@@ -197,7 +197,6 @@ if __name__ == '__main__':
 		sg = SkipGram("")
 		sg.load(opts.model)
 		for a,b,_ in pairs:
-			#print(a,b)
             # make sure this does not raise any exception, even if a or b are not in sg.vocab
-			print(sg.similarity(a,b))
+			print('{:f}'.format(sg.similarity(a,b)))
     
