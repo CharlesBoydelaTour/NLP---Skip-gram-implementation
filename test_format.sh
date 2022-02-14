@@ -15,7 +15,7 @@ TESTDATA=simlex.csv
 TRAINDATA=train.txt
 RESULTFILE=results.txt
 REPORT=report.pdf
-NLINES=5000 # number of lines, play around with increasing numbers
+NLINES=1000 # number of lines, play around with increasing numbers
 
 # download training text data
 if [ -f 1-billion-word-language-modeling-benchmark-r13output.tar.gz ]
@@ -73,7 +73,7 @@ re="^-?[0-9]*\.?[0-9]*$"
 miss=0
 for oneline in $(cat $RESULTFILE)
 do
-	if ! [[ "$oneline" =~ $re ]]; then
+	if ! [["$oneline"=~$re]]; then
 		echo "ERROR, line $oneline should be a number"
 		miss=$(($miss +1))
 	fi

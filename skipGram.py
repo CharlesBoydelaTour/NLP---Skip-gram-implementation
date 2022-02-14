@@ -100,7 +100,7 @@ class SkipGram:
 					ctxtIds = [self.w2id[x] for x in sentence[start:end] if x != word]
 
 					for ctxtId in ctxtIds:
-						negativeIds = 0 #self.sample((wIdx, ctxtId))
+						negativeIds = self.sample((wIdx, ctxtId))
 						self.accLoss += self.trainWord(wIdx, ctxtId, negativeIds)
 						self.trainWords += 1
 			loss = self.accLoss/self.trainWords
@@ -121,9 +121,9 @@ class SkipGram:
 		loss_neg = -np.sum(np.log(expit(-prod_neg)))
 		# Gradients with respect to l2 weight
 		grad_l2_pos = np.dot(expit(prod_pos)-1,l1)
-		grad_l2_neg = np.dot(expit(prod_neg),l1)
+		grad_l2_neg = expit(prod_neg)
 		# Gradients with respect to l1 weight
-		grad_l1 = np.dot(expit(prod_pos)-1,l2_pos) + np.sum(np.dot(expit(prod_neg),l2_neg))
+		grad_l1 = np.dot(expit(prod_pos)-1,l2_pos) + np.sum(np.dot(expit(prod_neg),l2_neg.T))
 		# Update l2
 		self.l2[:,contextId] -= self.learning_rate*grad_l2_pos
 		self.l2[:,negativeIds] -= self.learning_rate*grad_l2_neg
