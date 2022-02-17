@@ -8,22 +8,22 @@ import numpy as np
 from scipy.special import expit
 from sklearn.preprocessing import normalize
 
-
 __authors__ = ['Charles Boy De La Tour','Gabriel Drai','Zakariae El Asri']
 __emails__  = ['charles.boy-de-la-tour@student-cs.fr','gabriel.drai@student-cs.fr','zakariae.elasri@student-cs.fr']
 
 def text2sentences(path):
-	# feel free to make a better tokenization/pre-processing
+	
 	sentences = []
 	with open(path) as f:
 		for l in f:
 			l = ''.join(item.lower() for item in l if item.isalpha() or item == " ")
 			l = l.split()
+			# filtering more than two letters words
 			l = [x for x in l if len(x) > 1]
 			sentences.append(l)
 	return sentences
 
-def get_vocab(sentences):
+def get_vocab(sentences, minCount):
 	occurences = {}
 	count = 0
 	for sentence in sentences:
@@ -35,10 +35,12 @@ def get_vocab(sentences):
 				occurences[word] = 1
 	sample = 0.001
 	vocab = []
+	
+ 	# filtering word appearing too often
 	for key in occurences:
 		z = occurences[key]/count
 		z = ((z/sample)**(1/2) + 1) * (sample/z)     
-		if z >= 1:
+		if z >= minCount:
 			vocab.append(key)
 	return vocab
 
@@ -62,10 +64,10 @@ def word_to_index(vocab):
 
 
 class SkipGram:
-	def __init__(self, sentences, nEmbed=100, negativeRate=5, winSize = 5, minCount = 5):
+	def __init__(self, sentences, nEmbed=100, negativeRate=20, winSize=20, minCount=1):
 		
 		self.trainset = sentences
-		self.vocab = get_vocab(self.trainset)
+		self.vocab = get_vocab(self.trainset, minCount)
 		self.w2id, self.id2w = word_to_index(self.vocab)
 		self.winSize = winSize
 		self.nEmbed = nEmbed
@@ -86,6 +88,8 @@ class SkipGram:
 		return neg
 
 	def train(self):
+     
+		# Set 10 epochs (default)
 		for epoch in range(10):
 			self.trainWords = 0
 			self.accLoss = 0.
@@ -108,7 +112,6 @@ class SkipGram:
 			print("epoch ",epoch+1, "Cross Entropy Loss: ", loss)
 
 	def trainWord(self, wordId, contextId, negativeIds):
-		## is it np.outer ?
 		#Forward pass
 		l1 = self.l1[wordId,:]
 		# Positive
@@ -154,15 +157,13 @@ class SkipGram:
 		if word1 in self.w2id and word2 in self.w2id:
 			word1 = self.w2id[word1]
 			word2 = self.w2id[word2]
-			h1 = self.l1[word1,:]
-			h1 = h1.reshape((len(h1),1))
-			h1 = np.dot(self.l2.T, h1)
-			h1 = np.exp(h1) / np.sum(np.exp(h1), axis=0, keepdims=True)
-			h2 = self.l1[word2,:]
-			h2 = h2.reshape((len(h2),1))
-			h2 = np.dot(self.l2.T, h2)
-			h2 = np.exp(h2) / np.sum(np.exp(h2), axis=0, keepdims=True)
-			return np.dot(h1.T, h2)[0][0]
+			a = self.l1[word1,:]
+			a =  (a - np.min(a)) / (np.max(a) - np.min(a))
+			b = self.l1[word2,:]
+			b =  (b - np.min(b)) / (np.max(b) - np.min(b))
+			# Here we are calculating the cosine distance
+			similarity = np.dot(a, b)/(np.linalg.norm(a)*np.linalg.norm(b))
+			return similarity
 		else:
 			return 0.0
 
